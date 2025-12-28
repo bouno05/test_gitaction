@@ -1,7 +1,7 @@
 name: PR Check
 
 on:
-  pull_request: # プルリクエスト作成時に実行
+  push:
 
 jobs:
   build: # 1つ目のジョブ
